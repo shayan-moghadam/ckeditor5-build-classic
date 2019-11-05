@@ -40,7 +40,6 @@
     "@ckeditor/ckeditor5-image": "^15.0.0",
     "@ckeditor/ckeditor5-indent": "^15.0.0",
     "@ckeditor/ckeditor5-link": "^15.0.0",
-    "@ckeditor/ckeditor5-list": "^15.0.0",
     "@ckeditor/ckeditor5-media-embed": "^15.0.0",
     "@ckeditor/ckeditor5-paragraph": "^15.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^15.0.0",
@@ -87,5 +86,13 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^15.0.0",
+    "@ckeditor/ckeditor5-font": "^15.0.0",
+    "@ckeditor/ckeditor5-list": "^15.0.0",
+    "@ckeditor/ckeditor5-remove-format": "^15.0.0",
+    "@ckeditor/ckeditor5-upload": "^15.0.0",
+    "@wiris/mathtype-ckeditor5": "^7.17.1"
   }
 }
